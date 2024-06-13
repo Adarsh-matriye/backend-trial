@@ -7,5 +7,5 @@ WORKDIR /opt/server/backend-test
 COPY . .
 
 RUN npm install
-EXPOSE 3000
-CMD [ "node", "index.js" ]
+EXPOSE 8000
+CMD [ "nmp", "start" ]
