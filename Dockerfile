@@ -8,4 +8,4 @@ COPY . .
 
 RUN npm install
 EXPOSE 8000
-CMD [ "nmp", "start" ]
+CMD [ "npm", "start" ]
